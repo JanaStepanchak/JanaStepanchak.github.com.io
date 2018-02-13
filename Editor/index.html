@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+		
+		 #main{  justify-content: space-around;
+		position: relative;}
+		
+        span{color: red;
+       display: none;	}
+
+        #headerBlok{
+            color: red;	
+            font-size: 15px;
+            font-weight: bold;
+            display: none;}
+       
+		#coteyner{
+            display: flex;
+            justify-content: space-around;
+			align-items: center;
+            margin: 10px auto;
+            flex-wrap: wrap;  }    
+		
+        .box{
+			width: 96%;
+            height:560px;
+			min-height: 200px;
+			margin:0 2%;}
+		
+		textarea{
+			width: 100%;
+			min-height: 200px;
+            height: 100%;
+			border: none;
+		}
+		
+		#box2{display: none;}
+
+		form{
+			display: none;		}	
+
+				
+		 #color{
+            display: none;
+            height: 250px;
+            width: 250px;
+            margin: 0 200px;
+            flex-wrap: wrap;   
+		 position: absolute;
+		 top:200px; ;
+		 right: 100px;}
+		
+		#fon{display: none;
+            height: 300px;
+            width: 300px;
+            flex-wrap: wrap;   
+		 	position: absolute;
+		 	top:200px; ;
+		 	right: 100px;
+			background: #ffcc80;
+ 
+		}
+      #fon111, #fon222{
+		   display: none;
+            height: 200px;
+            width: 300px;
+/*            margin: 0 200px;*/
+            flex-wrap: wrap;   
+			background: #ffcc80;
+/*			border: 5px solid red;*/
+		}
+		
+    .fonImg,  .fonBox{
+/*		  background:  red;*/
+            height: 33%;
+		  width: 33%;}	
+		
+		#fonC, #fonZ{ width: 48%;
+		text-align: center;}
+		
+	.colorBox{
+            height: 33%;
+			width: 33%; }
+        
+        #Dodatu{
+            width: 650px;
+            height: 450px;
+            display: none;
+            padding-left: 20px;
+/*            border: 5px solid red;*/
+			border-radius: 4%; 
+			background: #ffcc80;
+		position: absolute;
+		top: 200px;
+		left: 300px;
+		} 
+		
+
+		.VubirForm{width: 100%;
+		height: 55px;
+		background: #ffcc80;}
+		
+		nav{
+		width: 100%;
+		height: 45px;
+			background: #ffcc80;}
+		
+.R-S, .form2, .form1-r{ 
+			height: 65px;
+			display: none;
+            justify-content: space-around;
+			align-items: center;
+            margin: 0 auto;
+			flex-wrap: wrap; }
+		
+		.R-S{display: flex;}
+		
+		.VudTexty{display: block;}
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+         <input type="button" id="blok" class="blok" value="Блокувати" onclick="blokMain()">
+         <span id="headerBlok">Заблоковано</span>
+    </header>
+    
+  <main id="main">    
+     <nev>
+     	      <div class="VubirForm R-S" id="Vubir">
+  		 <h1 class=" div" id="redaguvatu" value="Редагувати" onclick="f1()">Редагувати</h1>
+         <h1 class=" div" id="stul" value="Стилізувати" onclick="f2()">Стилізувати
+            </h1>
+     	 </div>
+     </nev>
+     
+     
+    <nev>
+    	<form class="form1-r VubirForm" name="form1" id="form1">
+			<div   value="Зберегти" onclick="fZberegtu()">Зберегти</div>
+			<div  value="Додати" onclick="fDodatu()">Додати </div>
+  		 </form>
+   	 
+   	 
+    	 <form name="form2" id="form2" class="VubirForm form2">
+    	 <div  class="div">
+   <label class="VudTexty">  
+ <input type="checkbox"  name="check1" value="FW" onchange="f231()"> Жирний текст
+         </label>
+          <label class="VudTexty">  
+  <input type="checkbox"  name="check2" value="FS" onchange="f232()"> Курсивний текст
+         </label>
+         <label class="VudTexty">  
+ <input type="checkbox"  name="check3" value="TextD" onchange="f233()"> Підкреслений текст
+         </label></div>
+    <!--    ***********2_1**********-->	
+    	<div class="div RozmirSH">Розмір тексту
+    		<select name="RozmirSH" onchange="f21()">
+    		<option name="RozmirSH" value="12px"> 12px 
+   			<option name="RozmirSH" value="14px"> 14px 
+    		<option name="RozmirSH" value="16px"> 16px 
+    		<option name="RozmirSH" value="18px"> 18px 
+    		<option name="RozmirSH" value="20px"> 20px 
+    		</select>
+	  </div>
+	 
+    <!--    ***********2_2**********-->	
+    	<div class="div">
+    	Виберіть тип шрифт 
+            <select name="TupSH" onchange="fTupSH()">
+             <option value="TupSH1"> Times New Roman </option>
+             <option value="TupSH2"> Georgia </option>
+             <option value="TupSH3"> Helvetica </option>
+             <option value="TupSH4"> Arial </option>
+             <option value="TupSH5"> Geneva </option>
+             <option value="TupSH6"> Times</option>
+           </select>
+    	
+      	</div>
+	<!--    ***********2_3**********-->		
+		<div class="div">
+			
+		</div>
+<!--    ***********2_4**********-->			
+		<div class="div">
+			
+		<input type="button" id="colorText" value="Колір тексту">
+        <input type="button" id="colorFon" value="Фону">
+			
+			 <div id="color">
+                    <div class="colorBox" style="background: #f00"></div>
+                    <div class="colorBox" style="background: #0f0"></div>
+                    <div class="colorBox" style="background: #00f"></div>
+                    <div class="colorBox" style="background: #ff0"></div>
+                    <div class="colorBox" style="background: #000"></div> 
+                    <div class="colorBox" style="background: #fa0"></div>
+                    <div class="colorBox" style="background: #f0a"></div>
+                    <div class="colorBox" style="background: #a0f"></div>
+                    <div class="colorBox" style="background: #0ff"></div>
+              </div>
+              
+             <div id="fon" class="fonBox1">
+                     
+                <div id="fon111">
+   <div class="fonBox" onckac="backgBody" style="background: green"></div>
+   <div class="fonBox" onckac="backgBody" style="background: red"></div>
+   <div class="fonBox" onckac="backgBody" style="background: yellow"></div>
+   <div class="fonBox" onckac="backgBody" style="background: darkred"></div>
+   <div class="fonBox" onckac="backgBody" style="background: blue"></div> 
+   <div class="fonBox" onckac="backgBody" style="background: fuchsia"></div>
+   <div class="fonBox" onckac="backgBody" style="background: blueviolet"></div>
+   <div class="fonBox" onckac="backgBody" style="background: aqua"></div>
+   <div class="fonBox" onckac="backgBody" style="background: orange"></div>
+				 </div>
+                 <div id="fon222"> 
+         <div class="fonBox" style="background: url(image/01.jpg)"></div>
+         <div class="fonBox" style="background: url(image/02.jpg)"></div>
+         <div class="fonBox" style="background: url(image/03.jpg)"></div>
+         <div class="fonBox" style="background: url(image/04.jpg)"></div>
+         <div class="fonBox" style="background: url(image/05.jpg)"></div> 
+         <div class="fonBox" style="background: url(image/06.jpg)"></div>
+         <div class="fonBox" style="background: url(image/07.jpg)"></div>
+         <div class="fonBox" style="background: url(image/08.jpg)"></div>
+         <div class="fonBox" style="background: url(image/09.jpg)"></div>
+				 </div> 
+                    
+                      <div id="fonC" class="fonBox1"> Колір   </div>
+                      <div id="fonZ" class="fonBox1"> Зображення </div>
+                    Завантажити файл: <input type="file" id="fileZ" class="fonBox1" >
+                 </div> 
+                  
+		</div>
+		
+		 <div  class="div">
+   <label class="VudTexty">  
+ <input type="radio"  name="radio1" value="left" onclick="f24()"> left
+         </label>
+          <label class="VudTexty">  
+  <input type="radio"  name="radio1" value="center" onclick="f24()"> center
+         </label>
+         <label class="VudTexty">  
+ <input type="radio"  name="radio1" value="right" onclick="f24()"> right 
+         </label></div>
+		
+		
+		</form>
+    </nev>  
+    
+    
+    
+    
+    
+  
+     
+    
+    	
+   
+     
+     
+    <div class="box" id="box2">
+
+     <textarea value="" id="text"></textarea>
+
+
+		</div>
+     
+
+    <div class="box" id="box">
+<p>Якійсь там текст в якому щось там написано</p>
+<p>Якійсь там текст в якому щось там написано</p>
+<p>Якійсь там текст в якому щось там написано</p>
+<p>Якійсь там текст в якому щось там написано</p>
+<p>Якійсь там текст в якому щось там написано</p>
+    </div>
+     
+      
+      <form name="VubirForm" id="Vubir">
+  		 <input type="button" id="redaguvatu" value="Редагувати" onclick="f1()">
+         <input type="button" id="stul" value="Стилізувати" onclick="f2()">
+            </form>
+     
+   
+ 
+  
+ <div id="Dodatu">
+    
+    <h2>Виберіть, що саме ви хочети додати:</h2>
+    
+     <form name="TabSp" id="TabSp">
+      <label>
+    		<input type="radio" name="T_S" value="" id="IdTab"> Таблицю </label>
+    		<label>
+    		<input type="radio" name="T_S" value="" id="IdSp"> Список </label>
+     </form>
+      <br>
+
+     <form name="TabY" id="formTab">
+        <label> Введіть кількість рядків таблиці:<input type="text" id="rjadok" name="rjadok2" onblur="fNumber0()"> </label> <span>неправельно введене значення</span>
+         <br>   
+         <label> Введіть кількість стовпців таблиці:<input type="text" id="stov" onblur="fNumber1()"> </label><span>неправельно введене значення</span> 
+         
+         <h3>Стилізуйте таблицю:</h3>
+         
+         <label> Введіть ширину комірки таблиці:<input type="text" id="surKom" onblur="fNumber2()"> </label><span>неправельно введене значення</span>
+          <br>    
+         <label> Введіть висоту комірки таблиці:<input type="text" id="vusKom" onblur="fNumber3()"> </label><span>неправельно введене значення</span>
+          <br>   <br> 
+         
+         <label> Товщіна рамки:<input type="text" id="tovshina" onblur="fNumber4()"> </label><span>неправельно введене значення</span>
+          <br>  
+          <label> Collspacing: <input type="text" id="colg" onblur="fNumber5()"> </label><span>неправельно введене значення</span>
+          <br> <br>
+         
+         <select name="colorLin">
+              <option value="black">black</option>
+              <option value="red">red</option>
+              <option value="green">green</option>
+         </select>
+         <br>  <br>
+         <input type="button" id="skTAB" value="Скинути">
+         <input type="button" id="stvTAB" value="Створити таблицю">
+     </form>
+     
+     <form name="Sp" id="Sp">
+        
+      <input type="button" id="" value="Маркерований список" onclick="fMarkerSpusok()">
+      <input type="button" id="" value="Нумерований список" onclick="fNumberSpusok()">
+	 </form>  
+        <br>
+        
+      <form name="MarkerSpusok" id="MarkerSpusok">
+      		<select name="tipMarkera" onclick="TipMarkeraSp()"><span class="spam">Тип маркування для маркерованого списку:</span>
+              <option value="solid">circle</option>
+              <option value="disc">disc</option>
+              <option value="square">square</option>
+         </select>
+      <br> <br>
+         <label id="KE_Sp1"> Введіть кількість елементів у списку:<input type="number" id="KE_Sp" onblur="fKE_Sp()" value=""> </label>
+         <br> <br>
+         <input type="button" id="stvSp" value="Створити список" onchange="fTipLin()">
+         </form>
+        
+        
+
+        <form name="NumberSpusok" id="NumberSpusok">
+         
+         <select name="tipMarkeraNSp" onclick="TipMarkeraNSp()"><span class="spam">Тип маркування для нумерованого списку:</span>	
+              <option value="1">1</option>
+              <option value="A">A</option>
+              <option value="A">a</option>
+              <option value="A">I</option>
+          </select>   
+            <br> <br>   
+    <label id="KE_N_Sp1"> Введіть кількість елементів у списку:<input type="number" id="KE_N_Sp" onblur="fKE_N_Sp()" value=""> </label>          
+             
+         <br> <br>
+         <input type="button" id="stvNSp" value="Створити список" onchange="stvNSp()">
+         </form>
+
+     
+    
+</div>    
+       
+  
+
+</main>
+    <script src="js/main.js"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

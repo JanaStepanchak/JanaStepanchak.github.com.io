@@ -1,0 +1,1201 @@
+.Lightbox {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 153;
+}
+.Close {
+  font-size: 25px;
+  font-family: "DancingScript";
+  color: rgb(255, 255, 255);
+  line-height: 1.08;
+  text-align: center;
+  -moz-transform: matrix( 0.82191344249297,0,0,0.82191344249297,0,0);
+  -webkit-transform: matrix( 0.82191344249297,0,0,0.82191344249297,0,0);
+  -ms-transform: matrix( 0.82191344249297,0,0,0.82191344249297,0,0);
+  position: absolute;
+  left: 1028.989px;
+  top: 202px;
+  z-index: 152;
+}
+.Shape_16 {
+  background-image: -moz-linear-gradient( 71deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 71deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 71deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  opacity: 0.502;
+  position: absolute;
+  left: 1013px;
+  top: 200px;
+  width: 89px;
+  height: 33px;
+  z-index: 151;
+}
+.Organe_copy_5 {
+  background-image: url("Organe copy 5.png");
+  position: absolute;
+  left: 519px;
+  top: 291px;
+  width: 392px;
+  height: 278px;
+  z-index: 148;
+}
+.Shadow_copy_4 {
+  background-image: url("Shadow copy 4.png");
+  position: absolute;
+  left: 443px;
+  top: 566px;
+  width: 484px;
+  height: 94px;
+  z-index: 147;
+}
+.Player {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 146;
+}
+.Scrubber {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 145;
+}
+.Color_Fill_3_copy_2 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1040px;
+  top: 690px;
+  width: 14px;
+  height: 12px;
+  z-index: 144;
+}
+.Color_Fill_2_copy_2 {
+  background-color: rgb(0, 173, 239);
+  position: absolute;
+  left: 1000px;
+  top: 690px;
+  width: 33px;
+  height: 12px;
+  z-index: 143;
+}
+.progress_copy_2 {
+  background-color: rgb(0, 173, 239);
+  position: absolute;
+  left: 405px;
+  top: 691px;
+  width: 96px;
+  height: 10px;
+  z-index: 142;
+}
+.buffer_copy_2 {
+  background-color: rgb(107, 111, 112);
+  position: absolute;
+  left: 405px;
+  top: 691px;
+  width: 130px;
+  height: 10px;
+  z-index: 141;
+}
+.Color_Fill_1_copy_2 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(137, 143, 143);
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 401px;
+  top: 688px;
+  width: 582px;
+  height: 14px;
+  z-index: 140;
+}
+.Pause_Button_copy_11 {
+  border-radius: 5px;
+  background-color: rgb(23, 35, 34);
+  opacity: 0.8;
+  position: absolute;
+  left: 393px;
+  top: 680px;
+  width: 675px;
+  height: 32px;
+  z-index: 139;
+}
+.Play___Pause {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 137;
+}
+.Color_Fill_5_copy_2 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 343px;
+  top: 683px;
+  width: 17px;
+  height: 19px;
+  z-index: 135;
+}
+.Pause_Button_copy_10 {
+  border-radius: 5px;
+  background-color: rgb(23, 35, 34);
+  opacity: 0.8;
+  position: absolute;
+  left: 318px;
+  top: 672px;
+  width: 65px;
+  height: 40px;
+  z-index: 134;
+}
+.Shape_14 {
+  background-image: url("Shape 14.png");
+  opacity: 0.6;
+  position: absolute;
+  left: 467px;
+  top: 208px;
+  width: 496px;
+  height: 496px;
+  z-index: 131;
+}
+.Layer_29 {
+  background-image: url("Layer 29.png");
+  position: absolute;
+  left: 50px;
+  top: 527px;
+  width: 1300px;
+  height: 104px;
+  z-index: 130;
+}
+.Layer_28 {
+  background-image: url("Layer 28.png");
+  opacity: 0.702;
+  position: absolute;
+  left: 50px;
+  top: 81px;
+  width: 1300px;
+  height: 492px;
+  z-index: 129;
+}
+.Shape_13 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  background-image: -moz-linear-gradient( 71deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 71deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 71deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  position: absolute;
+  left: 267px;
+  top: 168px;
+  width: 864px;
+  height: 588px;
+  z-index: 128;
+}
+.Background {
+  border-radius: 37px;
+  background-image: -moz-linear-gradient( 71deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 71deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 71deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  opacity: 0.741;
+  position: absolute;
+  left: -287px;
+  top: -47px;
+  width: 1914px;
+  height: 1988px;
+  z-index: 127;
+}
+
+
+
+
+.Dropdown {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 125;
+}
+.Scripts {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 705.105px;
+  top: 189.992px;
+  width: 41px;
+  height: 12px;
+  z-index: 124;
+}
+.Templates {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 584.384px;
+  top: 189.992px;
+  width: 60px;
+  height: 12px;
+  z-index: 123;
+}
+.Websites {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 482.935px;
+  top: 189.992px;
+  width: 53px;
+  height: 10px;
+  z-index: 122;
+}
+.Web_Designs_Buttons_Banners_Fonts_Patterns_Navi {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 482.719px;
+  top: 213.92px;
+  width: 70px;
+  height: 126px;
+  z-index: 121;
+}
+.Layer_19_copy {
+  background-image: url("Layer 19 copy.png");
+  position: absolute;
+  left: 567px;
+  top: 193px;
+  width: 1px;
+  height: 142px;
+  z-index: 120;
+}
+.Layer_19 {
+  background-image: url("Layer 19.png");
+  position: absolute;
+  left: 690px;
+  top: 193px;
+  width: 1px;
+  height: 142px;
+  z-index: 119;
+}
+.jQuery_Gallery_Rollover_Effect_Hover_Transition {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 704.005px;
+  top: 214.342px;
+  width: 93px;
+  height: 78px;
+  z-index: 118;
+}
+.Simple_Buttons_Coloured_Buttons_Large_Buttons_F {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 585.5px;
+  top: 214.342px;
+  width: 94px;
+  height: 124px;
+  z-index: 117;
+}
+.Shape_22 {
+  background-image: -moz-linear-gradient( 7deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 7deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 7deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.63),inset 0px 1px 0px 0px rgba(255, 255, 255, 0.13);
+  position: absolute;
+  left: 459px;
+  top: 142px;
+  width: 369px;
+  height: 213px;
+  z-index: 115;
+}
+
+
+
+.Header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 113;
+}
+.Logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 112;
+}
+.Orange {
+  font-size: 41.317px;
+  font-family: "Fangtasia";
+  color: rgb(255, 255, 255);
+  line-height: 0.653;
+  text-align: left;
+  text-shadow: 0.156px 0.988px 3px rgba(97, 66, 0, 0.46);
+  -moz-transform: matrix( 1.95240354946462,0,0,1.95240354946462,0,0);
+  -webkit-transform: matrix( 1.95240354946462,0,0,1.95240354946462,0,0);
+  -ms-transform: matrix( 1.95240354946462,0,0,1.95240354946462,0,0);
+  position: absolute;
+  left: 636.579px;
+  top: 60.565px;
+  z-index: 111;
+}
+.Nav {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 109;
+}
+.Layer_25 {
+  background-image: url("Layer 25.png");
+  opacity: 0.4;
+  position: absolute;
+  left: 209px;
+  top: 58px;
+  width: 981px;
+  height: 37px;
+  z-index: 108;
+}
+.Layer_25_copy_3 {
+  background-image: url("Layer 25 copy 3.png");
+  position: absolute;
+  left: 210px;
+  top: 77px;
+  width: 980px;
+  height: 55px;
+  z-index: 107;
+}
+.Home__________Free_Downloads__________About____ {
+  font-size: 13px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 2.077;
+  text-align: center;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 462.375px;
+  top: 116.824px;
+  z-index: 106;
+}
+
+
+
+
+.Banner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 103;
+}
+.btn {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 102;
+}
+.Visit_Website_Text {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(224, 224, 224);
+  font-weight: bold;
+  line-height: 1.917;
+  text-align: left;
+  position: absolute;
+  left: 242px;
+  top: 532.662px;
+  width: 88px;
+  height: 10px;
+  z-index: 101;
+}
+.Shape_25 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(14, 14, 14);
+  background-image: -moz-linear-gradient( 90deg, rgb(12,12,12) 0%, rgb(40,40,40) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(12,12,12) 0%, rgb(40,40,40) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(12,12,12) 0%, rgb(40,40,40) 100%);
+  box-shadow: 0.5px 0.866px 1px 0px rgba(4, 4, 4, 0.3),inset 0.656px 0.755px 1px 0px rgba(255, 255, 255, 0.43);
+  position: absolute;
+  left: 211px;
+  top: 501px;
+  width: 141px;
+  height: 28px;
+  z-index: 100;
+}
+.Banner_Navigation {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 98;
+}
+.Left {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 97;
+}
+.Shape_1_copy_3 {
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3),inset 0px 1px 0.7px 0.3px rgba(255, 255, 255, 0.73);
+  position: absolute;
+  left: 212px;
+  top: 555px;
+  width: 20px;
+  height: 19px;
+  z-index: 95;
+}
+.Shadow_ {
+  background-image: url("Shadow .png");
+  opacity: 0.257;
+  position: absolute;
+  left: 212px;
+  top: 568px;
+  width: 19px;
+  height: 17px;
+  z-index: 94;
+}
+.Right {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 92;
+}
+.Shape_1_copy_2 {
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3),inset 0px 1px 0.7px 0.3px rgba(255, 255, 255, 0.73);
+  position: absolute;
+  left: 239px;
+  top: 555px;
+  width: 20px;
+  height: 19px;
+  z-index: 90;
+}
+.Shadow_ {
+  background-image: url("Shadow .png");
+  opacity: 0.257;
+  position: absolute;
+  left: 239px;
+  top: 568px;
+  width: 19px;
+  height: 17px;
+  z-index: 89;
+}
+.Next_Slide__1_3_ {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 2.25;
+  text-align: center;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 266.718px;
+  top: 577.842px;
+  z-index: 87;
+}
+.Orange {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 85;
+}
+.Organe_copy_3 {
+  background-image: url("Organe copy 3.png");
+  position: absolute;
+  left: 366px;
+  top: 178px;
+  width: 392px;
+  height: 278px;
+  z-index: 84;
+}
+.Layer_23 {
+  background-image: url("Layer 23.png");
+  position: absolute;
+  left: 225px;
+  top: 26px;
+  width: 652px;
+  height: 545px;
+  z-index: 83;
+}
+.Organe_copy {
+  background-image: url("Organe copy.png");
+  position: absolute;
+  left: 235px;
+  top: 224px;
+  width: 262px;
+  height: 177px;
+  z-index: 82;
+}
+.Layer_22 {
+  background-image: url("Layer 22.png");
+  position: absolute;
+  left: 280px;
+  top: -34px;
+  width: 796px;
+  height: 643px;
+  z-index: 81;
+}
+.Shadow_copy_2 {
+  background-image: url("Shadow copy 2.png");
+  opacity: 0.6;
+  position: absolute;
+  left: 202px;
+  top: 372px;
+  width: 364px;
+  height: 72px;
+  z-index: 80;
+}
+.Shadow_copy {
+  background-image: url("Shadow copy.png");
+  position: absolute;
+  left: 294px;
+  top: 434px;
+  width: 503px;
+  height: 100px;
+  z-index: 79;
+}
+.slides {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 77;
+}
+
+
+
+
+
+.Home_Page {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 74;
+}
+.Footer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 73;
+}
+.Folio {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 72;
+}
+.Logo_copy {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 71;
+}
+.see_my {
+  font-size: 16.508px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.636;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.004);
+  -moz-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  -webkit-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  -ms-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  position: absolute;
+  left: 581.673px;
+  top: 1261.996px;
+  z-index: 70;
+}
+.work {
+  font-size: 16.508px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 136, 9);
+  text-transform: uppercase;
+  line-height: 1.636;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.004);
+  -moz-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  -webkit-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  -ms-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  position: absolute;
+  left: 580.632px;
+  top: 1289.996px;
+  z-index: 69;
+}
+.Folio_Thumbs {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 67;
+}
+.Caption____Yeh_Buddy_Buddy_ {
+  font-size: 11px;
+  font-family: "Georgia";
+  color: rgb(147, 147, 147);
+  line-height: 2.455;
+  text-align: left;
+  position: absolute;
+  left: 575.922px;
+  top: 1486.999px;
+  z-index: 66;
+}
+.Shape_30_copy_2 {
+  background-image: -moz-linear-gradient( 79deg, rgb(238,238,238) 0%, rgb(238,238,238) 100%);
+  background-image: -webkit-linear-gradient( 79deg, rgb(238,238,238) 0%, rgb(238,238,238) 100%);
+  background-image: -ms-linear-gradient( 79deg, rgb(238,238,238) 0%, rgb(238,238,238) 100%);
+  position: absolute;
+  left: 601px;
+  top: 1403px;
+  width: 28px;
+  height: 24px;
+  z-index: 65;
+}
+.Shape_30_copy {
+  background-image: -moz-linear-gradient( 79deg, rgb(238,238,238) 0%, rgb(238,238,238) 100%);
+  background-image: -webkit-linear-gradient( 79deg, rgb(238,238,238) 0%, rgb(238,238,238) 100%);
+  background-image: -ms-linear-gradient( 79deg, rgb(238,238,238) 0%, rgb(238,238,238) 100%);
+  position: absolute;
+  left: 806px;
+  top: 1403px;
+  width: 28px;
+  height: 24px;
+  z-index: 64;
+}
+.Shape_30 {
+  background-image: -moz-linear-gradient( 79deg, rgb(238,238,238) 0%, rgb(238,238,238) 100%);
+  background-image: -webkit-linear-gradient( 79deg, rgb(238,238,238) 0%, rgb(238,238,238) 100%);
+  background-image: -ms-linear-gradient( 79deg, rgb(238,238,238) 0%, rgb(238,238,238) 100%);
+  position: absolute;
+  left: 703px;
+  top: 1403px;
+  width: 28px;
+  height: 24px;
+  z-index: 63;
+}
+.Shape_29_copy_2 {
+  background-image: -moz-linear-gradient( 79deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+  background-image: -webkit-linear-gradient( 79deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+  background-image: -ms-linear-gradient( 79deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+  position: absolute;
+  left: 757px;
+  top: 1359px;
+  width: 123px;
+  height: 110px;
+  z-index: 62;
+}
+.Shape_29_copy {
+  background-image: -moz-linear-gradient( 79deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+  background-image: -webkit-linear-gradient( 79deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+  background-image: -ms-linear-gradient( 79deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+  position: absolute;
+  left: 654px;
+  top: 1359px;
+  width: 123px;
+  height: 110px;
+  z-index: 61;
+}
+.Shape_29 {
+  background-image: -moz-linear-gradient( 79deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+  background-image: -webkit-linear-gradient( 79deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+  background-image: -ms-linear-gradient( 79deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+  position: absolute;
+  left: 552px;
+  top: 1359px;
+  width: 123px;
+  height: 120px;
+  z-index: 60;
+}
+.Suspendisse_ullamcorper_adipiscing_ligula__ut_s {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(215, 215, 215);
+  line-height: 1.833;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 568.359px;
+  top: 1349.342px;
+  width: 601px;
+  height: 38px;
+  z-index: 58;
+}
+.About {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 56;
+}
+.Logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 55;
+}
+.orange {
+  font-size: 16.508px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 136, 9);
+  text-transform: uppercase;
+  line-height: 1.636;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.004);
+  -moz-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  -webkit-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  -ms-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  position: absolute;
+  left: 226.147px;
+  top: 1291.996px;
+  z-index: 54;
+}
+.what_is {
+  font-size: 16.508px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.636;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.004);
+  -moz-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  -webkit-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  -ms-transform: matrix( 1.45380635667212,0,0,1.45380635667213,0,0);
+  position: absolute;
+  left: 225.712px;
+  top: 1263.996px;
+  z-index: 53;
+}
+.Suspendisse_ullamcorper_adipiscing_ligula__ut_s {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(215, 215, 215);
+  line-height: 1.833;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 210.578px;
+  top: 1351.342px;
+  width: 305px;
+  height: 123px;
+  z-index: 51;
+}
+.Orange_copy {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 49;
+}
+.Organe_copy_4 {
+  background-image: url("Organe copy 4.png");
+  position: absolute;
+  left: 994px;
+  top: 1149px;
+  width: 192px;
+  height: 137px;
+  z-index: 48;
+}
+.Shadow_copy_3 {
+  background-image: url("Shadow copy 3.png");
+  position: absolute;
+  left: 958px;
+  top: 1275px;
+  width: 248px;
+  height: 50px;
+  z-index: 47;
+}
+.Footer_Bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 45;
+}
+.Layer_18_copy_2 {
+  background-image: url("Layer 18 copy 2.png");
+  opacity: 0.6;
+  position: absolute;
+  left: 0px;
+  top: 1195px;
+  width: 1393px;
+  height: 2px;
+  z-index: 44;
+}
+.Shape_20_copy_4 {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  left: -22px;
+  top: 1186px;
+  width: 1413px;
+  height: 9px;
+  z-index: 43;
+}
+.Bottom_row {
+  background-image: url("Bottom row.png");
+  position: absolute;
+  left: 209px;
+  top: 900px;
+  width: 982px;
+  height: 231px;
+  z-index: 38;
+}
+.Projects {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 37;
+}
+._1_copy_3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 36;
+}
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1.417;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 970.516px;
+  top: 810.92px;
+  width: 219px;
+  height: 49px;
+  z-index: 35;
+}
+.Icon_Design {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2.25;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 970.937px;
+  top: 793.992px;
+  width: 70px;
+  height: 16px;
+  z-index: 34;
+}
+.__copy_12 {
+  background-image: url("+ copy 12.png");
+  position: absolute;
+  left: 1070px;
+  top: 676px;
+  width: 21px;
+  height: 22px;
+  z-index: 33;
+}
+.Shape_23_copy_3 {
+  background-color: rgb(230, 230, 230);
+  box-shadow: -0.276px 0.961px 1px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 972px;
+  top: 612px;
+  width: 218px;
+  height: 145px;
+  z-index: 32;
+}
+._1_copy_2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 30;
+}
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1.417;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 716.516px;
+  top: 810.92px;
+  width: 219px;
+  height: 49px;
+  z-index: 29;
+}
+.Photography {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2.25;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 716.937px;
+  top: 793.992px;
+  width: 77px;
+  height: 16px;
+  z-index: 28;
+}
+.__copy_11 {
+  background-image: url("+ copy 11.png");
+  position: absolute;
+  left: 816px;
+  top: 676px;
+  width: 21px;
+  height: 22px;
+  z-index: 27;
+}
+.Shape_23_copy_2 {
+  background-color: rgb(230, 230, 230);
+  box-shadow: -0.276px 0.961px 1px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 718px;
+  top: 612px;
+  width: 218px;
+  height: 145px;
+  z-index: 26;
+}
+._1_copy {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 24;
+}
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1.417;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 462.516px;
+  top: 810.92px;
+  width: 219px;
+  height: 49px;
+  z-index: 23;
+}
+.Graphic_Design {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2.25;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 462.937px;
+  top: 793.992px;
+  width: 92px;
+  height: 16px;
+  z-index: 22;
+}
+.__copy_10 {
+  background-image: url("+ copy 10.png");
+  position: absolute;
+  left: 562px;
+  top: 676px;
+  width: 21px;
+  height: 22px;
+  z-index: 21;
+}
+.Shape_23_copy {
+  background-color: rgb(230, 230, 230);
+  box-shadow: -0.276px 0.961px 1px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 464px;
+  top: 612px;
+  width: 218px;
+  height: 145px;
+  z-index: 20;
+}
+._1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 18;
+}
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1.417;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 208.516px;
+  top: 810.92px;
+  width: 219px;
+  height: 49px;
+  z-index: 17;
+}
+.Web_Design {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2.25;
+  text-align: left;
+  text-shadow: 0px 1px 1px rgba(148, 76, 0, 0.004);
+  position: absolute;
+  left: 208.935px;
+  top: 793.992px;
+  width: 72px;
+  height: 16px;
+  z-index: 16;
+}
+.__copy_9 {
+  background-image: url("+ copy 9.png");
+  position: absolute;
+  left: 308px;
+  top: 676px;
+  width: 21px;
+  height: 22px;
+  z-index: 15;
+}
+.Shape_23 {
+  background-color: rgb(230, 230, 230);
+  box-shadow: -0.276px 0.961px 1px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 210px;
+  top: 612px;
+  width: 218px;
+  height: 145px;
+  z-index: 14;
+}
+.Layer_25_copy {
+  background-image: url("Layer 25 copy.png");
+  opacity: 0.4;
+  position: absolute;
+  left: 210px;
+  top: 873px;
+  width: 980px;
+  height: 3px;
+  z-index: 12;
+}
+
+
+
+
+
+.Background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 9;
+}
+.Layer_27_copy {
+  background-image: url("Layer 27 copy.png");
+  opacity: 0.902;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  width: 864px;
+  height: 468px;
+  z-index: 8;
+}
+.Layer_27 {
+  background-image: url("Layer 27.png");
+  opacity: 0.4;
+  position: absolute;
+  left: 225px;
+  top: 0px;
+  width: 906px;
+  height: 526px;
+  z-index: 7;
+}
+.Layer_20_copy_2 {
+  background-image: url("Layer 20 copy 2.png");
+  position: absolute;
+  left: 103px;
+  top: 0px;
+  width: 1177px;
+  height: 804px;
+  z-index: 6;
+}
+.Layer_26 {
+  background-image: url("Layer 26.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 122px;
+  z-index: 4;
+}
+.Layer_18 {
+  background-image: url("Layer 18.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 1910px;
+  z-index: 2;
+}

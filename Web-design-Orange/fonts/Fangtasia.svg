@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg>
+<metadata>
+Created by FontForge 20110222 at Tue Mar 26 14:34:33 2013
+ By www-data
+(c) 2010-2013  SpideRaYsfoNtS. All Rights Reserved.
+</metadata>
+<defs>
+<font id="SpideRaY" horiz-adv-x="700" >
+  <font-face 
+    font-family="Fangtasia"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="800"
+    descent="-200"
+    bbox="102 -320 679 1060"
+    underline-thickness="64"
+    underline-position="-154"
+  />
+    <missing-glyph />
+    <glyph glyph-name="_d_50" horiz-adv-x="577" 
+d="M193 84c45 74 89 157 170 323l216 395c15 21 49 38 79 39c12 0 21 -7 21 -17c0 -8 -5 -20 -14 -35c-29 -42 -205 -362 -282 -516c-101 -206 -161 -288 -211 -288c-22 0 -55 13 -59 23c-7 25 -8 42 -11 128c0 180 19 311 85 643c5 18 15 29 42 29c8 0 40 -19 40 -34
+c-48 -203 -57 -252 -68 -354c-8 -70 -12 -141 -12 -211c0 -36 1 -52 4 -125z" />
+    <glyph glyph-name="_d_83" 
+d="M577 934c-141 0 -173 -32 -173 -177v-165c0 -157 -28 -192 -164 -229c137 -38 164 -75 164 -230v-165c0 -145 35 -175 173 -175v-66c-148 0 -214 25 -237 97c-10 30 -11 44 -15 142v167c0 157 -51 197 -192 197l-5 -1v66c152 0 197 45 197 199v166c0 71 6 117 15 144
+c23 68 91 95 237 95v-65z" />
+    <glyph glyph-name="_d_84" 
+d="M383 1060v-1380h-66v1380h66z" />
+  </font>
+</defs></svg>
