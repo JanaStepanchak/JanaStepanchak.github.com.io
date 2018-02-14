@@ -1,0 +1,324 @@
+.conteyner{
+	width: 1000px;
+	height: 1175px;
+	margin: 0 auto;
+	background: #2a2925;
+	color: white;
+/*	padding: 0 20px;*/
+}
+/*
+.conteyner2{
+	height: 1135px;
+	margin: 0 auto;}
+*/
+
+header{
+	height: 120px;
+   padding: 0 20px;
+	display: flex;
+}
+
+
+
+.logo{
+	width: 30%;
+}
+
+.div-nav{width: 70%;}
+
+.heder-input{
+/*	height: 50px;*/
+	display: flex;
+ 	justify-content: flex-end;}
+
+input{margin: 20px 0 20px 10px;}
+
+ nav{
+	 height: 70px;
+	 display: flex;
+justify-content: space-around;}
+
+
+.intro{
+    width: 1000px;
+	height: 450px;
+    padding: 0 20px;
+	background: #95a60a;
+	display: flex;
+
+	flex-wrap: wrap;
+    padding: 0 10px;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+
+}
+
+#Box1{      
+    width: 445px;
+    height: 170px;
+/*
+    border: 1px solid #000;
+	background: #333;
+*/
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#Box2{      
+    width: 485px;
+    height: 170px;
+/*
+    border: 1px solid #000;
+	background: #ccc;
+*/
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#boxImgB{ 
+    width: 435px;
+    height: 240px;
+		  background: #232323;
+display: inline-block;}
+	
+
+
+.stoSto{
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:  wrap; 
+}
+
+.stoO{
+    width: 112px;
+    height: 112px;
+    border: 1px solid #000;
+    margin: 4px;
+}
+
+.O-boxImgB{
+     width: 445px;
+    height: 250px;
+     border: 1px solid #000;
+    padding: 4px;
+}
+
+.sto{ display: inline-block;
+	margin: 5px;
+	background: #232323;
+	width: 100px;
+ height: 100px;}
+
+.dstoIntro{
+	background: #333333;
+    width: 485px;
+	height: 250px;
+     display: flex;
+}
+
+.dstoO{width: 212px;
+    height: 212px;
+    border: 1px solid #000;
+    padding: 5px;}
+
+.dsto{
+	background: #232323;
+	width: 200px;
+height: 200px;}
+
+.IntroBox2-f{
+    width: 50%;
+    height: 250px;
+   padding: 20px;
+}
+
+.box2{
+    width: 1000px;
+    height: 400px;
+    padding: 0 20px;
+background: #e4dfc8;
+color: black;
+display: flex;
+justify-content: space-around;}
+
+.box2-box{
+width: 300px;}
+
+.box2-box-300{width: 300px;
+height: 200px;
+background: #232323;}
+
+h3{
+border-bottom: 1px solid #000;}
+
+footer{width: 1000px;
+height: ;
+padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box1{
+width: 300px;}
+
+.footer-box2{ width: 590px;
+display: flex;
+justify-content: space-between;}
+
+.TitleText{
+width: 30%;}
+
+.pTitle{
+font-size: 25px;
+border-bottom: 1px solid #000;}
+
+.pTitle-text{font-size: 15px;}
+
+.f-box1-text{font-size: 15px;}
+
+
+
+
+.footer{
+    width: 1000px;
+height: 45px;
+    padding: 20px;
+background: #1f1f1f;
+display: flex;
+justify-content: space-between;
+font-size: 15px;}
+
+
+
+.logo-A{
+	font-size: 41.317px;
+  font-family: "Fangtasia";
+  color: rgb(255, 255, 255);
+  line-height: 0.653;
+  text-align: left;
+  text-shadow: 0.156px 0.988px 3px rgba(97, 66, 0, 0.46);
+  -moz-transform: matrix( 1.95240354946462,0,0,1.95240354946462,0,0);
+  -webkit-transform: matrix( 1.95240354946462,0,0,1.95240354946462,0,0);
+  -ms-transform: matrix( 1.95240354946462,0,0,1.95240354946462,0,0);
+}
+.logo-span{
+	font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(218, 218, 218);
+  line-height: 1;
+  text-align: left;
+}
+
+input[text]{
+	font-size: 12px;
+  font-family: "Verdana";
+  color: rgb(76, 76, 76);
+  line-height: 1;
+  text-align: left;
+}
+input[button]{
+	font-size: 12px;
+  font-family: "Verdana";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: left;}
+
+.menu-nav{font-size: 13px;
+  font-family: "Verdana";
+  color: rgb(228, 223, 200);
+  line-height: 1;
+  text-align: left;}
+
+.Cursus_penati_saccum {
+  font-size: 42px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+	text-align: left;}
+.Cursuspenatisaccum_u {
+  font-size: 13px;
+  font-family: "Verdana";
+  color: rgb(51, 51, 51);
+  line-height: 1.4;
+	text-align: left;}
+.Cursus_penati {
+  font-size: 18px;
+  font-family: "Georgia";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+	text-align: left;}
+.Cursus{
+  font-size: 12px;
+  font-family: "Verdana";
+  color: rgb(228, 223, 200);
+  line-height: 1.6;
+	text-align: left;}
+
+.Continue_Reading {
+  font-size: 13px;
+  font-family: "Verdana";
+  color: rgb(149, 166, 10);
+  line-height: 1;
+	text-align: left;}
+
+.Indonectetus {
+  font-size: 20px;
+  font-family: "Georgia";
+  color: rgb(51, 51, 51);
+  line-height: 1;
+	text-align: left;}
+
+.Morbitincidunt {
+  font-size: 12px;
+  font-family: "Verdana";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+	text-align: left;}
+
+.Copyright{
+  font-size: 12px;
+  font-family: "Verdana";
+  color: rgb(82, 82, 82);
+  line-height: 1;
+	text-align: left;}
+
+.Template {
+  font-size: 12px;
+  font-family: "Verdana";
+  color: rgb(82, 82, 82);
+  line-height: 1;
+	text-align: right;}
+
+.pTitle{
+  font-size: 20px;
+  font-family: "Georgia";
+  color: rgb(152, 152, 154);
+  line-height: 1;
+	text-align: left;}
+
+.f-box1-text{
+	font-size: 12px;
+  font-family: "Verdana";
+  color: rgb(152, 152, 154);
+  line-height: 1;
+  text-align: left;
+}
+.GO {
+  font-size: 14px;
+  font-family: "Verdana";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+	text-align: left;}
+
+.pTitle-text {
+	font-size: 12px;
+  font-family: "Verdana";
+  color: rgb(149, 166, 10);
+  line-height: 1.4;
+  text-align: left;
+}
