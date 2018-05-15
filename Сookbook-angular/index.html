@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Documents</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body ng-app="myCookBook">
+    <div class="container">
+        <h1>Сookbook</h1>
+        <div ng-controller="myCookBookCtrl as my">
+            <input type="text" class="form-control"  ng-model="titleRecipek"><br>
+            <input type="button" class="btn btn-success col-xs-12" data-toggle="modal" data-target="#exampleModalLong" value="Add new recipek">    <br>       
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLongTitle">new recipek</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <input type="text" class="form-control" ng-model="my.newNameRecipek" size="53"><br>
+                                    <input type="text" class="form-control" ng-model="my.newRecipeContent"><br>
+                                    <input type="button" class="btn btn-success col-xs-12" data-dismiss="modal" value="add New Recipek" ng-click="my.addInCookBook()">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<br>
+<br>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th ng-click="my.sort('dateCreated')" >date created
+                            <span class="glyphicon" ng-class="{'glyphicon-chevron-up': my.isSortUp('dateCreated'),
+                                                               'glyphicon-chevron-down': my.isSortDown('dateCreated')}"></span>
+                        </th>
+                        <th ng-click="my.sort('nameRecipe')" colspan="2">Name recipek
+                            <span class="glyphicon" ng-class="{'glyphicon-chevron-up': my.isSortUp('nameRecipe'),
+                                                               'glyphicon-chevron-down': my.isSortDown('nameRecipe')}"></span>
+                        </th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tbody ng-repeat="recipe in my.CookBook  | filter:{nameRecipe:titleRecipek} | orderBy: my.sortField : my.reverse">
+                    <tr>
+                        <td>{{recipe.dateCreated}}</td>
+                        <td ng-click="my.showRecipe(recipe)" colspan="2">{{recipe.nameRecipe}}</td>
+                        <td>
+                            <input type="button" value="edit" class="btn btn-success"  data-toggle="modal" data-target="#exampleModalEdit" ng-click="my.editCookBook(recipe)">
+                        </td>
+                    </tr>
+                    <tr ng-hide="recipe.showRecipe">
+                        <td  colspan="3">{{recipe.recipeContent}}</td>
+                        <td>
+                            <input type="button" value="show history" class="btn btn-info" data-toggle="modal" data-target="#exampleModal" ng-click="my.ShowHistoryCookBook(recipe)">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+<!-- Modal2-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalTitle">show history of changeedit</h2>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>date created</th>
+                                    <th>name recipe</th>
+                                    <th>recipe content</th>
+                                </tr>
+                            </thead>
+                            <tbody ng-repeat="history in my.CookBookRecipe">
+                                <td>{{history.dateCreated}}</td>
+                                <td>{{history.nameRecipe}}</td>
+                                <td>{{history.recipeContent}}</td>
+                                <td><input type="button" class="btn btn-danger " value="delete" ng-click="my.delCookBookhHistory(history)"></td>
+                            </tbody>
+                        </table>
+                        <input type="button" class="btn btn-success col-xs-12" data-dismiss="modal"  value="close show history of changeedit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+<br>
+                        <!-- Modal3 -->
+<div class="modal fade" id="exampleModalEdit" tabindex="-1" role="dialog" aria-labelledby="exampleModalEditTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalEditTitle">edit recipek</h2>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="text" class="form-control" ng-model="my.nameRecipe" size="53"><br>
+                        <input type="text" class="form-control" ng-model="my.contentRecipe"><br>
+                        <input type="button" value="Save" class="btn btn-success col-xs-12"   data-dismiss="modal"  ng-click="my.editRecipe()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>     
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script src="app/app.js"></script>
+<!--    <script src="app/servicer/CookBookService.js"></script>-->
+    <script src="app/controller/my.controller.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+var cookBook = angular.module("myCookBook", []);
